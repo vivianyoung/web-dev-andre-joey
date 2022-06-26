@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-bar {
+    width: 100%;
+
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+#photos {
+    width: 90%;
+    /* background-color: lightgray; */
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-div {
+    width: 33.33%; /* what if change to 20%? */
+    height: 30vw;
+    /* background-color: grey; */
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.photo-div > img {
+    width: 90%;
+}
+
+#row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
